@@ -1,14 +1,12 @@
 # Site settings
-title: Your awesome title
-email: your-email@domain.com
+title: TotalVerb @ GitHub
+email: fengyang.wang@uwaterloo.ca
 description: > # this means to ignore newlines until "baseurl:"
-  Write an awesome description for your new site here. You can edit this
-  line in _config.yml. It will appear in your document head meta (for
-  Google search results) and in your feed.xml site description.
+  GitHub pages home of Fengyang Wang and his open-source projects.
 baseurl: "" # the subpath of your site, e.g. /blog/
-url: "http://yourdomain.com" # the base hostname & protocol for your site
-twitter_username: jekyllrb
-github_username:  jekyll
+url: "https://totalverb.github.com" # the base hostname & protocol for your site
+twitter_username: fengyang97
+github_username:  TotalVerb
 
 # Build settings
 markdown: kramdown
