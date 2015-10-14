@@ -2,7 +2,7 @@
 layout: post
 title:  "Announcing Liquid"
 date:   2015-09-29 5:01:29
-categories: liquid
+categories: liq
 ---
 I finally released one of the projects I'm working on, [liquid].
 It's a simple game played by two people. The goal is to be the last
