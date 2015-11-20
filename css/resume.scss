@@ -7,8 +7,11 @@
 $outer-bg: #FAEBD7;
 $background: $outer-bg;
 $highlight-bg: #DCB;
-$shadow-bg: #430;
+$shadow-bg: #CBA;
 $accent-color: #820;
+
+$break-small: 500px;
+$line-height: 1.5em;
 
 a {
     color: $accent-color;
@@ -21,48 +24,47 @@ a:hover {
 
 body {
     font-family: Lora;
-    line-height: 1.4em;
+    line-height: $line-height;
     background-color: $outer-bg;
 }
 
 @mixin fa-icon-bullet {
     @extend .fa;
-    padding-right: 1ch;
-    width: 3ch;
+    width: 3em;
     text-align: center;
 }
 
 address {
-    line-height: 1.4em;
+    line-height: $line-height;
 
     ul {
         display: inline-block;
         list-style-type: none;
         padding-left: 0;
-        line-height: 1.5em;
+        line-height: $line-height;
         text-align: left;
 
-        [property=affiliation]:before {
+        [property=affiliation]::before {
             @extend .fa-university:before;
             @include fa-icon-bullet;
         }
 
-        [property=telephone]:before {
+        [property=telephone]::before {
             @extend .fa-phone:before;
             @include fa-icon-bullet;
         }
 
-        [property=email]:before {
+        [property=email]::before {
             @extend .fa-envelope:before;
             @include fa-icon-bullet;
         }
 
-        [property=mainEntityOfPage]:before {
+        [property=mainEntityOfPage]::before {
             @extend .fa-firefox:before;
             @include fa-icon-bullet;
         }
 
-        [data-property=github]:before {
+        [data-property=github]::before {
             @extend .fa-github:before;
             @include fa-icon-bullet;
         }
@@ -80,7 +82,7 @@ header {
     h1 {
         font-size: 3em;
         text-align: center;
-        text-shadow: 1px 1px 0.5px $shadow-bg;
+        text-shadow: 2px 2px 0.5px $shadow-bg;
         margin: 0.5em;
     }
 
@@ -108,6 +110,7 @@ main {
         }
 
         > h2 {
+            margin-top: 2em;
             font-size: 1.3em;
             letter-spacing: 0.2ch;
         }
@@ -117,31 +120,65 @@ main {
 section.work-experience {
     display: block;
     position: relative;
-    line-height: 1.4em;
+    line-height: $line-height;
+    margin-top: 2em;
+    margin-bottom: 2em;
+
     h1 {
         font-size: inherit;
         font-weight: bold;
         text-decoration: none;
         font-style: normal;
-        text-align: left;
         margin-top: 0;
+        margin-bottom: 0;
+        vertical-align: top;
+        line-height: $line-height;
     }
     address {
-        position: absolute;
-        top: 0;
-        right: 0;
-        display: inline-block;
-        text-align: right;
         margin-bottom: 0;
+        display: inline;
     }
-    time {
-        position: absolute;
-        right: 0;
-        top: 1.4em;
-        display: inline-block;
-        text-align: right;
+
+    @media not screen and (min-width: $break-small) {
+        text-align: center;
+
+        address::after {
+            content: ' ⋅ ';
+        }
+    }
+    @media screen and (min-width: $break-small) {
+        h1 {
+            text-align: left;
+            // border-bottom: 1px solid black;
+        }
+        address {
+            vertical-align: 0;
+            padding-top: 0.1em;
+            position: absolute;
+            top: 0;
+            right: 0;
+            display: inline-block;
+            text-align: right;
+        }
+        time {
+            position: absolute;
+            right: 0;
+            top: $line-height + 0.4em;
+            display: inline-block;
+            text-align: right;
+        }
+        ul {
+            margin-right: 18ch;
+        }
     }
     ul {
-        margin-right: 18ch;
+        padding-left: 0;
+        list-style-type: none;
+        text-align: left;
+        margin-top: 0.5em;
+        li::before {
+            content: "»";
+            padding-right: .7em;
+        }
     }
 }
