@@ -1,0 +1,147 @@
+---
+---
+
+@import "bootstrap";
+@import "font-awesome";
+
+$outer-bg: #FAEBD7;
+$background: $outer-bg;
+$highlight-bg: #DCB;
+$shadow-bg: #430;
+$accent-color: #820;
+
+a {
+    color: $accent-color;
+}
+
+a:hover {
+    @extend a;
+    text-decoration: underline;
+}
+
+body {
+    font-family: Lora;
+    line-height: 1.4em;
+    background-color: $outer-bg;
+}
+
+@mixin fa-icon-bullet {
+    @extend .fa;
+    padding-right: 1ch;
+    width: 3ch;
+    text-align: center;
+}
+
+address {
+    line-height: 1.4em;
+
+    ul {
+        display: inline-block;
+        list-style-type: none;
+        padding-left: 0;
+        line-height: 1.5em;
+        text-align: left;
+
+        [property=affiliation]:before {
+            @extend .fa-university:before;
+            @include fa-icon-bullet;
+        }
+
+        [property=telephone]:before {
+            @extend .fa-phone:before;
+            @include fa-icon-bullet;
+        }
+
+        [property=email]:before {
+            @extend .fa-envelope:before;
+            @include fa-icon-bullet;
+        }
+
+        [property=mainEntityOfPage]:before {
+            @extend .fa-firefox:before;
+            @include fa-icon-bullet;
+        }
+
+        [data-property=github]:before {
+            @extend .fa-github:before;
+            @include fa-icon-bullet;
+        }
+    }
+}
+
+header {
+    background-color: $background;
+    margin-top: 2em;
+    max-width: 800px;
+    border-radius: 5px;
+    padding: 0.5em;
+    margin-bottom: 0;
+
+    h1 {
+        font-size: 3em;
+        text-align: center;
+        text-shadow: 1px 1px 0.5px $shadow-bg;
+        margin: 0.5em;
+    }
+
+    address {
+        text-align: center;
+    }
+}
+
+main {
+    background-color: $background;
+    max-width: 800px;
+
+    > section {
+        > h1 {
+            font-size: 1.9em;
+            line-height: 1.9em;
+            border-bottom: 1px dotted black;
+        }
+
+        > h1:before {
+            content: '§ ';
+            font-style: italic;
+            font-size: 1.5em;
+            line-height: 1.5em;
+        }
+
+        > h2 {
+            font-size: 1.3em;
+            letter-spacing: 0.2ch;
+        }
+    }
+}
+
+section.work-experience {
+    display: block;
+    position: relative;
+    line-height: 1.4em;
+    h1 {
+        font-size: inherit;
+        font-weight: bold;
+        text-decoration: none;
+        font-style: normal;
+        text-align: left;
+        margin-top: 0;
+    }
+    address {
+        position: absolute;
+        top: 0;
+        right: 0;
+        display: inline-block;
+        text-align: right;
+        margin-bottom: 0;
+    }
+    time {
+        position: absolute;
+        right: 0;
+        top: 1.4em;
+        display: inline-block;
+        text-align: right;
+    }
+    ul {
+        margin-right: 18ch;
+    }
+}
