@@ -10,7 +10,8 @@ $highlight-bg: #DCB;
 $shadow-bg: #CBA;
 $accent-color: #820;
 
-$break-small: 500px;
+$break-small: 600px;
+$break-large: 700px;
 $line-height: 1.5em;
 
 a {
@@ -74,10 +75,13 @@ address {
 header {
     background-color: $background;
     margin-top: 2em;
-    max-width: 800px;
+    max-width: $break-large;
     border-radius: 5px;
     padding: 0.5em;
+    margin-left: auto;
+    margin-right: auto;
     margin-bottom: 0;
+    text-align: center;
 
     h1 {
         font-size: 3em;
@@ -93,13 +97,15 @@ header {
 
 main {
     background-color: $background;
-    max-width: 800px;
+    max-width: $break-large;
+    margin-bottom: $line-height;
 
     > section {
         > h1 {
             font-size: 1.9em;
             line-height: 1.9em;
-            border-bottom: 1px dotted black;
+            border-bottom: 1px solid black;
+            margin-bottom: 1.2em;
         }
 
         > h1:before {
@@ -125,7 +131,7 @@ section.work-experience {
     margin-bottom: 2em;
 
     h1 {
-        font-size: inherit;
+        font-size: 14px;
         font-weight: bold;
         text-decoration: none;
         font-style: normal;
@@ -135,40 +141,33 @@ section.work-experience {
         line-height: $line-height;
     }
     address {
+        // font-weight: bold;
         margin-bottom: 0;
         display: inline;
+    }
+    time {
+        // font-weight: bold;
+    }
+
+    address::after {
+        content: ' ⋅ ';
     }
 
     @media not screen and (min-width: $break-small) {
         text-align: center;
-
-        address::after {
-            content: ' ⋅ ';
-        }
     }
     @media screen and (min-width: $break-small) {
+        text-align: right;
+
         h1 {
+            line-height: $line-height;
+            float: left;
             text-align: left;
             // border-bottom: 1px solid black;
         }
-        address {
-            vertical-align: 0;
-            padding-top: 0.1em;
-            position: absolute;
-            top: 0;
-            right: 0;
-            display: inline-block;
-            text-align: right;
-        }
-        time {
-            position: absolute;
-            right: 0;
-            top: $line-height + 0.4em;
-            display: inline-block;
-            text-align: right;
-        }
+
         ul {
-            margin-right: 18ch;
+            text-align: left;
         }
     }
     ul {
@@ -181,4 +180,31 @@ section.work-experience {
             padding-right: .7em;
         }
     }
+}
+
+section.skills-list {
+    @extend section.work-experience;
+
+    ul {
+        li:first-child::before {
+            content: '';
+        }
+        li {
+            display: inline;
+            padding: 0;
+        }
+        li::before {
+            content: ', ';
+            padding-right: 0;
+        }
+        display: inline;
+        list-style-type: none;
+    }
+
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+footer {
+    @extend header;
 }
