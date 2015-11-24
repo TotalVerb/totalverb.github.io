@@ -2,11 +2,22 @@
 # Only the main Sass file needs front matter (the dashes are enough)
 ---
 @charset "utf-8";
+@import "font-awesome";
 
+$outer-bg: white;
+$background: $outer-bg;
+$highlight-bg: #DCB;
+$shadow-bg: #CBA;
+$accent-color: #820;
 
+$break-small: 600px;
+$break-large: 700px;
+$line-height: 1.5em;
+$base-font-family: Helvetica, Arial, sans-serif;
+
+@import "wafy-resume-styles";
 
 // Our variables
-$base-font-family: Helvetica, Arial, sans-serif;
 $base-font-size:   16px;
 $small-font-size:  $base-font-size * 0.875;
 $base-line-height: 1.5;
@@ -50,3 +61,20 @@ $on-laptop:        800px;
         "layout",
         "syntax-highlighting"
 ;
+
+header, main {
+    border: 1px solid black;
+    margin-bottom: 0;
+}
+
+ul.post-list {
+    margin-top: $spacing-unit;
+}
+
+footer {
+    border: none;
+}
+
+h1.page-heading {
+    display: none;
+}

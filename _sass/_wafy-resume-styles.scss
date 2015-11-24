@@ -1,0 +1,196 @@
+a {
+    color: $accent-color;
+}
+
+a:hover {
+    @extend a;
+    text-decoration: underline;
+}
+
+body {
+    font-family: $base-font-family;
+    line-height: $line-height;
+    background-color: $outer-bg;
+}
+
+@mixin fa-icon-bullet {
+    @extend .fa;
+    width: 3em;
+    text-align: center;
+}
+
+address {
+    line-height: $line-height;
+
+    ul {
+        display: inline-block;
+        list-style-type: none;
+        padding-left: 0;
+        line-height: $line-height;
+        text-align: left;
+
+        [property=affiliation]::before {
+            @extend .fa-university:before;
+            @include fa-icon-bullet;
+        }
+
+        [property=telephone]::before {
+            @extend .fa-phone:before;
+            @include fa-icon-bullet;
+        }
+
+        [property=email]::before {
+            @extend .fa-envelope:before;
+            @include fa-icon-bullet;
+        }
+
+        [property=mainEntityOfPage]::before {
+            @extend .fa-firefox:before;
+            @include fa-icon-bullet;
+        }
+
+        [data-property=github]::before {
+            @extend .fa-github:before;
+            @include fa-icon-bullet;
+        }
+    }
+}
+
+header {
+    background-color: $background;
+    margin-top: 2em;
+    max-width: $break-large;
+    border-radius: 5px;
+    padding: 0.5em;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 0;
+    text-align: center;
+
+    h1 {
+        font-size: 3em;
+        text-align: center;
+        text-shadow: 2px 2px 0.5px $shadow-bg;
+        margin: 0.5em;
+    }
+
+    address {
+        text-align: center;
+    }
+}
+
+main {
+    background-color: $background;
+    max-width: $break-large;
+    margin-bottom: $line-height;
+    margin-left: auto;
+    margin-right: auto;
+
+    > section {
+        > h1 {
+            font-size: 1.9em;
+            line-height: 1.9em;
+            border-bottom: 1px solid black;
+            margin-bottom: 1.2em;
+        }
+
+        > h1:before {
+            content: '§ ';
+            font-style: italic;
+            font-size: 1.5em;
+            line-height: 1.5em;
+        }
+
+        > h2 {
+            margin-top: 2em;
+            font-size: 1.3em;
+            letter-spacing: 0.2ch;
+        }
+    }
+}
+
+section.work-experience {
+    display: block;
+    position: relative;
+    line-height: $line-height;
+    margin-top: 2em;
+    margin-bottom: 2em;
+
+    h1 {
+        font-size: 14px;
+        font-weight: bold;
+        text-decoration: none;
+        font-style: normal;
+        margin-top: 0;
+        margin-bottom: 0;
+        vertical-align: top;
+        line-height: $line-height;
+    }
+    address {
+        // font-weight: bold;
+        margin-bottom: 0;
+        display: inline;
+    }
+    time {
+        // font-weight: bold;
+    }
+
+    address::after {
+        content: ' ⋅ ';
+    }
+
+    @media not screen and (min-width: $break-small) {
+        text-align: center;
+    }
+    @media screen and (min-width: $break-small) {
+        text-align: right;
+
+        h1 {
+            line-height: $line-height;
+            float: left;
+            text-align: left;
+            // border-bottom: 1px solid black;
+        }
+
+        ul {
+            text-align: left;
+        }
+    }
+    ul {
+        padding-left: 0;
+        list-style-type: none;
+        text-align: left;
+        margin-top: 0.5em;
+        li::before {
+            content: "»";
+            padding-right: .7em;
+        }
+    }
+}
+
+section.skills-list {
+    @extend section.work-experience;
+
+    ul {
+        li:first-child::before {
+            content: '';
+        }
+        li {
+            display: inline;
+            padding: 0;
+        }
+        li::before {
+            content: ', ';
+            padding-right: 0;
+        }
+        display: inline;
+        list-style-type: none;
+    }
+
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+footer {
+    @extend header;
+}
