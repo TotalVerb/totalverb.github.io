@@ -89,6 +89,12 @@ main {
     border-bottom-right-radius: $spacing-unit/2;
 }
 
+article header {
+    border-style: none;
+    min-height: none;
+    padding: 0;
+}
+
 ul.post-list {
     margin-top: $spacing-unit;
 }
