@@ -11,7 +11,7 @@ $shadow-bg: #CBA;
 $accent-color: #820;
 
 $break-small: 600px;
-$break-large: 700px;
+$break-large: 800px;
 $line-height: 1.5em;
 $base-font-family: Helvetica, Arial, sans-serif;
 
@@ -63,8 +63,30 @@ $on-laptop:        800px;
 ;
 
 header, main {
-    border: 1px solid black;
-    margin-bottom: 0;
+    box-sizing: border-box;
+
+    @media screen and (min-width: $break-large) {
+        border: 1px solid black;
+        border-bottom-left-radius: 0;
+        border-bottom-right-radius: 0;
+        margin-bottom: -1px;
+    }
+}
+
+header {
+    @media screen and (min-width: $break-large) {
+        border-top: 5px solid black;
+    }
+
+    min-height: 56px;
+
+    // Positioning context for the mobile navigation icon
+    position: relative;
+}
+
+main {
+    border-bottom-left-radius: $spacing-unit/2;
+    border-bottom-right-radius: $spacing-unit/2;
 }
 
 ul.post-list {
