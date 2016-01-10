@@ -1,11 +1,15 @@
 ---
 layout: post
-title:  "CS Club Materials"
-date:   2015-01-10 14:40:41
-categories: csclub
+title:  "Currencies.jl"
+date:   2015-12-10 17:52:25
+categories: julia assijn
 ---
-Here is a five-part [lesson package], complete with slides and assignments,
-prepared for the SJAM CS Club 2014&ndash;2015. I developed this along with my
-friend Ian Fox. It's quite comprehensive and I hope it's useful for some of you.
+This is [Currencies.jl], a production-ready library that provides a easy and
+consistent interface to monetary values. Check it out; the documentation should
+provide a starting point.
 
-[lesson package]: https://drive.google.com/drive/u/0/folders/0ByjX0nULhWbtUnpOeVJ0amNHbWM
+It supports most of the features you'd want, such as custom precision, flexible
+internal representation, currency conversion, and zero-cost abstraction.
+
+
+[Currencies.jl]: https://github.com/TotalVerb/Currencies.jl
