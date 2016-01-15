@@ -1,8 +1,8 @@
 # Site settings
-title: Fengyang Wang (TotalVerb)
+title: wafy.me
 email: fengyang.wang@uwaterloo.ca
 description: > # this means to ignore newlines until "baseurl:"
-  GitHub pages home of Fengyang Wang and his open-source projects.
+  I’m Fengyang Wang, a 2A Mathematics student at the University of Waterloo.
 baseurl: "" # the subpath of your site, e.g. /blog/
 url: "https://totalverb.github.com" # the base hostname & protocol for your site
 twitter_username: fengyang97

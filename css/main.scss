@@ -3,6 +3,7 @@
 ---
 @charset "utf-8";
 @import "font-awesome";
+@import url(https://fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic&subset=latin,latin-ext);
 
 $outer-bg: white;
 $background: $outer-bg;
@@ -13,7 +14,7 @@ $accent-color: #820;
 $break-small: 600px;
 $break-large: 800px;
 $line-height: 1.5em;
-$base-font-family: Helvetica, Arial, sans-serif;
+$base-font-family: Lora;
 
 @import "wafy-resume-styles";
 
@@ -37,7 +38,6 @@ $content-width:    800px;
 
 $on-palm:          600px;
 $on-laptop:        800px;
-
 
 
 // Using media queries with like this:
@@ -85,6 +85,7 @@ header {
 }
 
 main {
+    padding-top: 1em;
     border-bottom-left-radius: $spacing-unit/2;
     border-bottom-right-radius: $spacing-unit/2;
 }
