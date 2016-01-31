@@ -73,6 +73,10 @@ header, main {
     }
 }
 
+header.site-header {
+    z-index: 1;
+}
+
 header {
     @media screen and (min-width: $break-large) {
         border-top: 5px solid black;
