@@ -107,3 +107,13 @@ footer {
 h1.page-heading {
     display: none;
 }
+
+img.profile {
+    margin: 0 0 1em 0;
+
+    @media screen and (min-width: $break-small) {
+        float: right;
+        max-width: 15em;
+        margin: 0 0 1em 1em;
+    }
+}
