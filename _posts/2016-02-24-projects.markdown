@@ -1,0 +1,15 @@
+---
+layout: post
+title:  "Projects"
+date:   2016-02-24 22:05:04
+categories: open-source meta
+---
+
+I added a new [Projects] page that contains a few screenshots for my recent and
+non-recent projects. I intend to update this page frequently to highlight new
+and interesting projects.
+
+In other news, I plan to spend some time updating this website and modernizing
+it, as well as adding some more content. More to come!
+
+[Projects]: /projects
