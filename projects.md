@@ -28,6 +28,15 @@ and PostgreSQL.
 This is a [web game][liquid] in JavaScript and HTML5 canvas, using the
 fabric.js library.
 
+## Pymaze JS
+
+![a pymaze js game][pymaze-img]
+
+This is a [web game][pymaze] in JavaScript and HTML5 canvas. It started as a
+port of my high school CS Club project, Pymaze, which was programmed in Python
+and used the pygame library. After the port, some additional features were added
+and the overall experience was improved.
+
 [currencies-img]: /images/currencies.png
 [cjl]: https://github.com/TotalVerb/Currencies.jl
 [julia]: http://julialang.org
@@ -35,3 +44,5 @@ fabric.js library.
 [findr-img]: /images/findr.png
 [liquid]: /liquid
 [liquid-img]: /images/liquid.png
+[pymaze]: /pygame-js
+[pymaze-img]: /images/pymaze.png
