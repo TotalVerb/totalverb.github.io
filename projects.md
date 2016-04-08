@@ -4,7 +4,8 @@ title: Projects
 permalink: /projects/
 ---
 
-Here are a few interesting projects that I’ve worked on over the years.
+Here are a few interesting open-source projects that I’ve worked on over the
+years. I also [teach] mathematics.
 
 ## Currencies.jl
 
@@ -37,6 +38,7 @@ port of my high school CS Club project, Pymaze, which was programmed in Python
 and used the pygame library. After the port, some additional features were added
 and the overall experience was improved.
 
+[teach]: /teaching
 [currencies-img]: /images/currencies.png
 [cjl]: https://github.com/TotalVerb/Currencies.jl
 [julia]: http://julialang.org
