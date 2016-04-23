@@ -14,6 +14,9 @@ Some elementary understanding of calculus and linear algebra is assumed. If you
 have any questions, concerns, or suggestions, I'm all ears! Please reach me on
 [Twitter] or through the [GitHub] issues of this website.
 
+The notebook itself hasn't been uploaded yet. I'll get to that as soon as
+possible.
+
 [automatic differentiation]: /documents/multdisp.html
 [Projects]: /projects
 [Teaching]: /teaching
