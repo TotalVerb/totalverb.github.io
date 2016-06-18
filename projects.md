@@ -40,7 +40,7 @@ and the overall experience was improved.
 
 [teach]: /teaching
 [currencies-img]: /images/currencies.png
-[cjl]: https://github.com/TotalVerb/Currencies.jl
+[cjl]: https://github.com/JuliaFinance/Currencies.jl
 [julia]: http://julialang.org
 [findr]: /findr-web
 [findr-img]: /images/findr.png
