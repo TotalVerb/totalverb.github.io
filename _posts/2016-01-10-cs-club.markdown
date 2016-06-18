@@ -2,7 +2,8 @@
 layout: post
 title:  "CS Club Materials"
 date:   2016-01-10 14:40:41
-categories: csclub
+categories: teach
+tags: [csclub, js, algo]
 ---
 
 Here is a five-part [lesson package], complete with slides and assignments,

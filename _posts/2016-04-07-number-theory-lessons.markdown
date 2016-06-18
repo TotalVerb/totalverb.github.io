@@ -2,7 +2,7 @@
 layout: post
 title:  "Number Theory Lessons"
 date:   2016-04-07 22:46:19
-categories: teach math
+categories: teach
 ---
 
 I added a new [Teaching] page which currently contains the Number Theory unit

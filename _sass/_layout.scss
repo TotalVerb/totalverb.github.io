@@ -27,14 +27,12 @@ a.site-title {
     }
 
     @include media-query($on-palm) {
-        position: absolute;
-        top: 9px;
-        right: 30px;
         background-color: $background-color;
         text-align: right;
 
         .menu-icon {
             display: inline-block;
+            float: right;
             width: 36px;
             height: 26px;
             line-height: 0;
@@ -59,15 +57,17 @@ a.site-title {
             display: block;
             padding-bottom: 5px;
             border: 1px solid black;
+            padding-top: 0.25em;
         }
 
         &:hover .trigger li {
             display: block;
             padding: 0;
+            margin-top: -0.25em;
         }
 
         &:hover .trigger li a {
-            padding: 0.5em 1em;
+            padding: 0.25em 1em;
         }
 
         .page-link {

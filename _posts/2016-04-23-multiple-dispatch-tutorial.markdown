@@ -2,7 +2,8 @@
 layout: post
 title:  "Multiple Dispatch Tutorial"
 date:   2016-04-23 11:05:22
-categories: julia teach
+categories: teach
+tags: [julia]
 ---
 
 I have created an IJulia (Jupyter) notebook showcasing [automatic

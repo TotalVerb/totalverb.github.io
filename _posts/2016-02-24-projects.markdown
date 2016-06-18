@@ -2,7 +2,7 @@
 layout: post
 title:  "Projects"
 date:   2016-02-24 22:05:04
-categories: open-source meta
+categories: meta
 ---
 
 I added a new [Projects] page that contains a few screenshots for my recent and
