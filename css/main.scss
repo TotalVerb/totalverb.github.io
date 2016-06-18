@@ -4,6 +4,8 @@
 @charset "utf-8";
 @import "font-awesome";
 @import url(https://fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic&subset=latin,latin-ext);
+@import url(https://fonts.googleapis.com/css?family=Ubuntu:400,400italic,700,700italic&subset=latin,latin-ext);
+@import url(https://fonts.googleapis.com/css?family=Ubuntu+Mono:400,400italic,700,700italic&subset=latin,latin-ext,greek);
 
 $outer-bg: white;
 $background: $outer-bg;
@@ -14,7 +16,8 @@ $accent-color: #820;
 $break-small: 600px;
 $break-large: 800px;
 $line-height: 1.5em;
-$base-font-family: Lora;
+$base-font-family: Ubuntu, sans;
+$code-font-family: 'Ubuntu Mono', monospace;
 
 @import "wafy-resume-styles";
 
@@ -30,7 +33,7 @@ $background-color: #FFF;
 $brand-color:      #2a7ae2;
 
 $grey-color:       black;
-$grey-color-light: lighten($grey-color, 40%);
+$grey-color-light: lighten($grey-color, 50%);
 $grey-color-dark:  darken($grey-color, 25%);
 
 // Width of the content area
@@ -38,7 +41,6 @@ $content-width:    800px;
 
 $on-palm:          600px;
 $on-laptop:        800px;
-
 
 // Using media queries with like this:
 // @include media-query($on-palm) {

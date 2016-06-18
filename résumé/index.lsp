@@ -70,7 +70,7 @@
         (h1 "Projects")
         (section ([class "work-experience"])
           (h1 "Currencies.jl")
-          (address (a ([href "https://github.com/TotalVerb/Currencies.jl"])
+          (address (a ([href "https://github.com/JuliaFinance/Currencies.jl"])
                      "GitHub"))
           (time "2015–present")
           (ul (li "Currency arithmetic, conversion, and format library")
