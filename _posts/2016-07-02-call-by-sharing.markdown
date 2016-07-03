@@ -6,7 +6,7 @@ categories: tech
 tags: [js, julia, py]
 ---
 
-Most people hear one of two calling [evaluation strategies]: call-by-value and
+Most people know of two calling [evaluation strategies]: call-by-value and
 call-by-reference. Lost in the noise is how the most common evaluation strategy
 today is really neither of the above. Indeed, many languages, including
 JavaScript, Java, Julia, Python, Ruby, and countless more, use the
