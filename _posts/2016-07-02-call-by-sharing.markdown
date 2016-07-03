@@ -143,11 +143,11 @@ call Ruby’s behaviour call-by-reference is not.
 Indeed, Ruby has the same semantics as Java:
 
 {% highlight ruby %}
-def mutate(x)
+def mutate!(x)  # a little misleading 😉
   x = 0
 end
 x = 1
-mutate x
+mutate! x
 puts x  # 1
 {% endhighlight %}
 
