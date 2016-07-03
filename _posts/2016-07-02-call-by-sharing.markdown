@@ -84,9 +84,9 @@ then we would have seen a similar result as our second example. Here we are no
 longer mutating the array; we are now binding the name `A` to a new array.
 
 There is a wealth of resources online that claim that Java is call-by-value, or
-that Ruby is call-by-reference. Indeed this languages are both call-by-sharing.
-So are these resources wrong? In fact, the former is not wrong. The latter is a
-little bit of a stretch, but there is some meaning in the nonsense. Rather, this
+that Ruby is call-by-reference. These languages are both call-by-sharing. So are
+these resources wrong? In fact, the former is not wrong. The latter is a little
+bit of a stretch, but there is some meaning in the nonsense. Rather, this
 exposes some nuance about what exactly is a value, and what exactly is a
 reference.
 
