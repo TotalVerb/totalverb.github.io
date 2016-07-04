@@ -12,7 +12,8 @@ years. I also [teach] mathematics.
 ![using Currencies; @usingcurrencies USD, CAD][currencies-img]
 
 This is a [library][cjl] for the [Julia][julia] programming language that
-supports currency arithmetic, computations, and formatting.
+supports currency arithmetic, computations, and formatting. In 2016, the
+project is now under the JuliaFinance organization umbrella.
 
 ## Findr
 
