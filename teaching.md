@@ -5,7 +5,8 @@ permalink: /teaching/
 ---
 
 I have created an IJulia (Jupyter) notebook showcasing [automatic
-differentiation] using multiple dispatch in Julia.
+differentiation] using multiple dispatch in Julia. More notebooks may be
+uploaded in the future, especially if there is demand.
 
 I also teach Olympic Math for Grade 4 students at the [Grand River Chinese
 School][grcs]. This page contains samples of some of the material taught.
