@@ -10,7 +10,6 @@ a:hover {
 body {
     font-family: $base-font-family;
     line-height: $line-height;
-    background-color: $outer-bg;
 }
 
 @mixin fa-icon-bullet {
@@ -57,7 +56,6 @@ address {
 }
 
 header {
-    background-color: $background;
     margin-top: 2em;
     max-width: $break-large;
     border-radius: 5px;
@@ -70,7 +68,6 @@ header {
     h1 {
         font-size: 3em;
         text-align: center;
-        text-shadow: 2px 2px 0.5px $shadow-bg;
         margin: 0.5em;
     }
 
@@ -80,7 +77,6 @@ header {
 }
 
 main {
-    background-color: $background;
     max-width: $break-large;
     margin-bottom: $line-height;
     margin-left: auto;
@@ -90,21 +86,8 @@ main {
         > h1 {
             font-size: 1.9em;
             line-height: 1.9em;
-            border-bottom: 1px solid black;
-            margin-bottom: 1.2em;
-        }
-
-        > h1:before {
-            content: '§ ';
-            font-style: italic;
-            font-size: 1.5em;
-            line-height: 1.5em;
-        }
-
-        > h2 {
-            margin-top: 2em;
-            font-size: 1.3em;
-            letter-spacing: 0.2ch;
+            margin-top: 0.5em;
+            margin-bottom: 0;
         }
     }
 }
@@ -113,8 +96,8 @@ section.work-experience {
     display: block;
     position: relative;
     line-height: $line-height;
-    margin-top: 2em;
-    margin-bottom: 2em;
+    margin-top: 1em;
+    margin-bottom: 1em;
 
     h1 {
         font-size: 14px;
