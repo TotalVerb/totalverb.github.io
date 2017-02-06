@@ -7,6 +7,10 @@ permalink: /projects/
 Here are a few interesting open-source projects that I’ve worked on over the
 years. I also [teach] mathematics.
 
+## EnglishText.jl
+
+Watch this space!
+
 ## Currencies.jl
 
 ![using Currencies; @usingcurrencies USD, CAD][currencies-img]
@@ -14,6 +18,12 @@ years. I also [teach] mathematics.
 This is a [library][cjl] for the [Julia][julia] programming language that
 supports currency arithmetic, computations, and formatting. In 2016, the
 project is now under the JuliaFinance organization umbrella.
+
+## High School Enrichment
+
+With my friend Ian Fox, we created an [enrichment] curriculum for our high
+school CS club. It covers a lot of stuff, including algorithms like
+Bellman-Ford and data structures like Binary Search Trees.
 
 ## Findr
 
@@ -49,3 +59,4 @@ and the overall experience was improved.
 [liquid-img]: /images/liquid.png
 [pymaze]: /pygame-js
 [pymaze-img]: /images/pymaze.png
+[enrichment]: https://drive.google.com/drive/u/0/folders/0ByjX0nULhWbtUnpOeVJ0amNHbWM"
