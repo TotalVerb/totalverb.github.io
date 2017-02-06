@@ -57,6 +57,6 @@ and the overall experience was improved.
 [findr-img]: /images/findr.png
 [liquid]: /liquid
 [liquid-img]: /images/liquid.png
-[pymaze]: /pygame-js
+[pymaze]: /pymaze-js
 [pymaze-img]: /images/pymaze.png
 [enrichment]: https://drive.google.com/drive/u/0/folders/0ByjX0nULhWbtUnpOeVJ0amNHbWM"
