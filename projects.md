@@ -19,6 +19,14 @@ This is a [library][cjl] for the [Julia][julia] programming language that
 supports currency arithmetic, computations, and formatting. In 2016, the
 project is now under the JuliaFinance organization umbrella.
 
+## UW Student Seminars
+
+I help run the [UW Student Seminars][student-seminars]. Several of my past
+talks for the seminars are listed here.
+
+- [Hypercomplex numbers][hypercomplex]
+- [q-Analogs][q-analog]
+
 ## High School Enrichment
 
 With my friend Ian Fox, we created an [enrichment] curriculum for our high
@@ -60,3 +68,6 @@ and the overall experience was improved.
 [pymaze]: /pymaze-js
 [pymaze-img]: /images/pymaze.png
 [enrichment]: https://drive.google.com/drive/u/0/folders/0ByjX0nULhWbtUnpOeVJ0amNHbWM"
+[student-seminars]: http://uwseminars.com
+[hypercomplex]: http://uwseminars.com/archive/fw-Hypercomplex/
+[q-analog]: http://uwseminars.com/archive/fw-q/
