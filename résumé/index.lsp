@@ -27,11 +27,10 @@
     (main ([class "container"])
       (section
         (h1 "Summary of Qualifications")
-        (ul (li "Web developer with full-stack JavaScript experience developed
-                 through open-source projects")
-            (li "Desktop programmer with C, C++, and Python experience")
-            (li "Strong problem solver with high school Olympiad participation")
-            (li "Effective communicator developed through two years as
+        (ul (li "Software developer with C, C++, and Python experience")
+            (li "Strong problem solver with high school and university level
+                 competition participation")
+            (li "Effective communicator developed through three years as
                  mathematics instructor")))
       (section
         (h1 "Experience")
@@ -62,7 +61,8 @@
           (time "2015–present")
           (ul (li "Winner of " (q "Réné Descartes National Scholarship")
                   ", awarded by University of Waterloo ($25000 value)")
-              (li "Term Dean’s Honours for Fall 2015, Winter 2016"))))
+              (li "Term Dean’s Honours for Fall 2015, Winter 2016, Fall
+                   2016"))))
       (section
         (h1 "Projects")
         (section ([class "work-experience"])
