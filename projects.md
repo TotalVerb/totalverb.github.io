@@ -9,7 +9,19 @@ years. I also [teach] mathematics.
 
 ## EnglishText.jl
 
-Watch this space!
+Many applications display information to readers in prose format instead of
+tabular format. It is often important to generate human-readable, grammatically
+correct prose. However, taking care of grammatical special cases is tedious.
+
+[EnglishText.jl](https://github.com/TotalVerb/EnglishText.jl) solves this
+problem by providing a variety of convenient utility functions.
+
+EnglishText.jl aims to
+
+ - provide a convenient, universally useful approach to abstracting away
+   grammatical special cases
+ - be self-documenting where possible, but well-documented nevertheless
+ - not have unnecessary performance bottlenecks
 
 ## Currencies.jl
 
