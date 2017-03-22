@@ -9,7 +9,8 @@
            [href    "/css/resume.css"]
            [media   "screen"]
            [title   "master"]
-           [charset "utf-8"])))
+           [charset "utf-8"]))
+    (script (include "ga.js" #:text)))
   (body
     (header ([class  "container"]
              [vocal  "http://schema.org/"]
