@@ -128,7 +128,8 @@
            " and an alternative "
            (a ([href "index.lsp"]) "lispy format."))
         (address
-          (ul (li ([property "email"])
+          (ul (li ([property "name"]) "Fengyang Wang")
+              (li ([property "email"])
                 (a ([href "mailto:fengyang.wang@uwaterloo.ca"])
                   "fengyang.wang@uwaterloo.ca"))
               (li ([property "mainEntityOfPage"])
