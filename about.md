@@ -4,8 +4,7 @@ title: About
 permalink: /about/
 ---
 
-Fengyang Wang is a Mathematics student at the University of Waterloo, seeking to
-pursue a double major in Computer Science and Combinatorics and Optimization.
+Fengyang Wang is a Mathematics student at the University of Waterloo.
 
 This is Fengyang’s GitHub Pages site. Items referenced here include open-source
 projects that he has worked on over the years.
