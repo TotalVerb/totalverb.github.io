@@ -19,7 +19,7 @@ $code-font-family: 'Ubuntu Mono', monospace;
 
 // Our variables
 $base-font-size:   18px;
-$small-font-size:  $base-font-size * 0.875;
+$small-font-size:  $base-font-size * .875;
 $base-line-height: 1.58;
 
 $spacing-unit:     30px;
@@ -28,7 +28,7 @@ $text-color:       rgb(0, 0, 0);
 $background-color: rgb(251, 237, 218);
 $brand-color:      #2a7ae2;
 
-$grey-color:       black;
+$grey-color:       rgb(0, 0, 0);
 $grey-color-light: lighten($grey-color, 50%);
 $grey-color-dark:  darken($grey-color, 25%);
 
