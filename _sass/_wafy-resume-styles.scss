@@ -9,7 +9,7 @@ a:hover {
 
 body {
     font-family: $base-font-family;
-    line-height: $line-height;
+    line-height: $base-line-height;
 }
 
 @mixin fa-icon-bullet {
@@ -19,13 +19,13 @@ body {
 }
 
 address {
-    line-height: $line-height;
+    line-height: $base-line-height;
 
     ul {
         display: inline-block;
         list-style-type: none;
         padding-left: 0;
-        line-height: $line-height;
+        line-height: $base-line-height;
         text-align: left;
 
         [property=affiliation]::before {
@@ -78,7 +78,7 @@ header {
 
 main {
     max-width: $break-large;
-    margin-bottom: $line-height;
+    margin-bottom: $base-line-height;
     margin-left: auto;
     margin-right: auto;
 
@@ -95,7 +95,7 @@ main {
 section.work-experience {
     display: block;
     position: relative;
-    line-height: $line-height;
+    line-height: $base-line-height;
     margin-top: 1em;
     margin-bottom: 1em;
 
@@ -107,7 +107,7 @@ section.work-experience {
         margin-top: 0;
         margin-bottom: 0;
         vertical-align: top;
-        line-height: $line-height;
+        line-height: $base-line-height;
     }
     address {
         // font-weight: bold;
@@ -129,7 +129,7 @@ section.work-experience {
         text-align: right;
 
         h1 {
-            line-height: $line-height;
+            line-height: $base-line-height;
             float: left;
             text-align: left;
             // border-bottom: 1px solid black;
