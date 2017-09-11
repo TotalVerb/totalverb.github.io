@@ -7,7 +7,6 @@
 @import url(https://fonts.googleapis.com/css?family=Ubuntu:400,400italic,700,700italic&subset=latin,latin-ext);
 @import url(https://fonts.googleapis.com/css?family=Ubuntu+Mono:400,400italic,700,700italic&subset=latin,latin-ext,greek);
 
-$accent-color: #820;
 
 $break-small: 600px;
 $break-large: 800px;
@@ -15,28 +14,8 @@ $line-height: 1.5em;
 $base-font-family: Ubuntu, sans;
 $code-font-family: 'Ubuntu Mono', monospace;
 
+@import "defs";
 @import "wafy-resume-styles";
-
-// Our variables
-$base-font-size:   18px;
-$small-font-size:  $base-font-size * .875;
-$base-line-height: 1.58;
-
-$spacing-unit:     30px;
-
-$text-color:       rgb(0, 0, 0);
-$background-color: rgb(251, 237, 218);
-$brand-color:      #2a7ae2;
-
-$grey-color:       rgb(0, 0, 0);
-$grey-color-light: lighten($grey-color, 50%);
-$grey-color-dark:  darken($grey-color, 25%);
-
-// Width of the content area
-$content-width:    800px;
-
-$on-palm:          600px;
-$on-laptop:        800px;
 
 // Using media queries with like this:
 // @include media-query($on-palm) {
