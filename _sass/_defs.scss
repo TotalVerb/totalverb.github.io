@@ -22,8 +22,10 @@ $on-laptop:        800px;
 
 // Breaks
 $break-small:      600px;
-$break-large:      700px;
+$break-large:      750px;
 
 // Fonts
 $base-font-family: Ubuntu, sans;
 $code-font-family: 'Ubuntu Mono', monospace;
+@import url(https://fonts.googleapis.com/css?family=Ubuntu:400,400italic,700,700italic&subset=latin,latin-ext);
+@import url(https://fonts.googleapis.com/css?family=Ubuntu+Mono:400,400italic,700,700italic&subset=latin,latin-ext,greek);
