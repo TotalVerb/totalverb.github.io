@@ -7,7 +7,6 @@
 @import url(https://fonts.googleapis.com/css?family=Ubuntu:400,400italic,700,700italic&subset=latin,latin-ext);
 @import url(https://fonts.googleapis.com/css?family=Ubuntu+Mono:400,400italic,700,700italic&subset=latin,latin-ext,greek);
 
-$background: rgb(251, 237, 218);
 $accent-color: #820;
 
 $break-small: 600px;
@@ -25,8 +24,8 @@ $base-line-height: 1.58;
 
 $spacing-unit:     30px;
 
-$text-color:       #000;
-$background-color: #FFF;
+$text-color:       rgb(0, 0, 0);
+$background-color: rgb(251, 237, 218);
 $brand-color:      #2a7ae2;
 
 $grey-color:       black;

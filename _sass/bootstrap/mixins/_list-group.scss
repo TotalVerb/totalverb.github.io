@@ -1,9 +1,9 @@
 // List Groups
 
-@mixin list-group-item-variant($state, $background, $color) {
+@mixin list-group-item-variant($state, $background-color, $color) {
   .list-group-item-#{$state} {
     color: $color;
-    background-color: $background;
+    background-color: $background-color;
 
     // [converter] extracted a&, button& to a.list-group-item-#{$state}, button.list-group-item-#{$state}
   }
@@ -19,7 +19,7 @@
     &:hover,
     &:focus {
       color: $color;
-      background-color: darken($background, 5%);
+      background-color: darken($background-color, 5%);
     }
     &.active,
     &.active:hover,
