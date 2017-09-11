@@ -7,10 +7,7 @@
 @import url(https://fonts.googleapis.com/css?family=Ubuntu:400,400italic,700,700italic&subset=latin,latin-ext);
 @import url(https://fonts.googleapis.com/css?family=Ubuntu+Mono:400,400italic,700,700italic&subset=latin,latin-ext,greek);
 
-$outer-bg: white;
-$background: $outer-bg;
-$highlight-bg: #DCB;
-$shadow-bg: #CBA;
+$background: rgb(251, 237, 218);
 $accent-color: #820;
 
 $break-small: 600px;
