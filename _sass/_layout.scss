@@ -3,13 +3,11 @@ a.site-title {
     line-height: 56px;
     letter-spacing: -1px;
     margin-bottom: 0;
-    float: left;
 
     color: $text-color;
 }
 
 .site-nav {
-    float: right;
     line-height: 56px;
 
     .menu-icon {
@@ -266,6 +264,10 @@ header {
 
     // Positioning context for the mobile navigation icon
     position: relative;
+
+    // Flexbox!
+    display: flex;
+    justify-content: space-between;
 }
 
 article header {
