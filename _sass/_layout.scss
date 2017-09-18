@@ -99,7 +99,6 @@ a.site-title {
     font-size: 15px;
     color: $grey-color;
     margin-left: -$spacing-unit / 2;
-    @extend %clearfix;
 }
 
 .footer-col {
