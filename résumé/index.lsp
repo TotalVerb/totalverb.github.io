@@ -29,16 +29,23 @@
     (main
       (section
         (h1 "Summary of Qualifications")
-        (ul (li "Software developer with C, C++, and Python experience")
-            (li "Strong problem solver with high school and university level
-                 competition participation")
-            (li "Effective communicator developed through three years as
-                 mathematics instructor")))
+        (ul (li "Open-source contributor skilled in Git and popular programming
+                 languages")
+            (li "ACM ICPC regional and high school Olympiad participant")
+            (li "Strong teamwork and communications skills with part-time role
+                 as math instructor")))
       (section
         (h1 "Experience")
         (section ([class "work-experience"])
-          (h1 "Software Developer Intern")
-          (address (a ([href "https://www.bloomberg.com/"]) "Bloomberg LP"))
+          (h1 "Software Developer Co-op")
+          (address (a ([href "https://www.bloomberg.com/"]) "Bloomberg LP • San Francisco, CA"))
+          (time 2017)
+          (ul (li "Designed and implemented APIs for quantitative finance")
+              (li "Used Python scientific stack (numpy, pandas) and Jupyter
+                   notebook")))
+        (section ([class "work-experience"])
+          (h1 "Software Developer Co-op")
+          (address (a ([href "https://www.bloomberg.com/"]) "Bloomberg LP • New York, NY"))
           (time 2016)
           (ul (li "Developed an event processing system with Scala and Apache "
                   "Storm")
@@ -53,18 +60,17 @@
                   (a ([href "https://github.com/TotalVerb/math-grade4"])
                     "mathematics curriculum")
                   " for Grade 4 students")
-              (li "Taught for two years after one year of being a teaching assistant")
-              (li "Increased class size from 9 to 19 over two years"))))
+              (li "Part-time math instruction role"))))
       (section
         (h1 "Education")
         (section ([class "work-experience"])
           (h1 "Bachelor of Mathematics")
           (address (a ([href "https://www.uwaterloo.ca"]) "University of Waterloo"))
           (time "2015–present")
-          (ul (li "Winner of " (q "Réné Descartes National Scholarship")
+          (ul (li (q "Réné Descartes National Scholarship")
                   ", awarded by University of Waterloo ($25000 value)")
               (li "Term Dean’s Honours for Fall 2015, Winter 2016, Fall
-                   2016"))))
+                   2016, Winter 2017"))))
       (section
         (h1 "Projects")
         (section ([class "work-experience"])
@@ -88,10 +94,18 @@
       (section
         (h1 "Achievements")
         (section ([class "work-experience"])
+          (h1 "ACM ICPC Programming Competition")
+          (address (a ([href "..."])
+                      "..."))
+          (time 2016)
+          (ul (li "Part of " (q "Waterloo White"))
+              (li "3-person team at East Central North America Regionals")
+              (li "Placed 3rd among 126 teams from 50 schools")))
+        (section ([class "work-experience"])
           (h1 "Putnam Math Competition")
           (address (a ([href "http://math.scu.edu/putnam/"])
                      "Mathematical Association of America"))
-          (time 2015)
+          (time "2015, 2016")
           (ul (li "Placed in top 200 across Canada and United States")))
         (section ([class "work-experience"])
           (h1 "Canadian Mathematical Olympiad")
