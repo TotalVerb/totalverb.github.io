@@ -121,21 +121,19 @@
           (ul (li "HTML")
               (li "CSS")
               (li "(La)TeX")
-              (li "Git"))))
-      (footer ([vocab  "http://schema.org/"]
-               [typeof "Person"])
-        (p "This résumé available in an alternative "
-           (a ([href "typeset.pdf"]) "typeset format")
-           " and an alternative "
-           (a ([href "index.lsp"]) "lispy format."))
-        (address
-          (ul (li ([property "name"]) "Fengyang Wang")
-              (li ([property "email"])
-                (a ([href "mailto:fengyang.wang@uwaterloo.ca"])
-                  "fengyang.wang@uwaterloo.ca"))
-              (li ([property "mainEntityOfPage"])
-                (a ([href "//wafy.me"]) "wafy.me"))
-              (li ([data-property "github"])
-                (a ([href "https://github.com/TotalVerb/"]) "TotalVerb")))))
-      (script ([src "/javascripts/jquery-1.11.3.min.js"]))
-      (script ([src "/javascripts/bootstrap.min.js"])))))
+              (li "Git")))))
+    (footer ([vocab  "http://schema.org/"]
+             [typeof "Person"])
+      (p "This résumé available in an alternative "
+         (a ([href "typeset.pdf"]) "typeset format")
+         " and an alternative "
+         (a ([href "index.lsp"]) "lispy format."))
+      (address
+        (ul (li ([property "name"]) "Fengyang Wang")
+            (li ([property "email"])
+              (a ([href "mailto:fengyang.wang@uwaterloo.ca"])
+                "fengyang.wang@uwaterloo.ca"))
+            (li ([property "mainEntityOfPage"])
+              (a ([href "//wafy.me"]) "wafy.me"))
+            (li ([data-property "github"])
+              (a ([href "https://github.com/TotalVerb/"]) "TotalVerb")))))))

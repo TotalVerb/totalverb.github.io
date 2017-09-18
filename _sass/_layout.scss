@@ -246,6 +246,13 @@ header, main {
         border-bottom-right-radius: 0;
         margin-bottom: -1px;
     }
+
+    max-width: $content-width;
+    margin-right: auto;
+    margin-left: auto;
+    margin-bottom: $base-line-height;
+    padding-right: $spacing-unit;
+    padding-left: $spacing-unit;
 }
 
 header {
@@ -293,13 +300,6 @@ main {
     padding-top: 1em;
     border-bottom-left-radius: $spacing-unit/2;
     border-bottom-right-radius: $spacing-unit/2;
-
-    max-width: $content-width;
-    margin-right: auto;
-    margin-left: auto;
-    margin-bottom: $base-line-height;
-    padding-right: $spacing-unit;
-    padding-left: $spacing-unit;
 
     @include media-query($on-laptop) {
         max-width: $content-width;
