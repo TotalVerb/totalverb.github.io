@@ -8,7 +8,7 @@
     (title "Résumé — Fengyang Wang")
     ;; Page style
     (link ([rel     "stylesheet"]
-           [href    "/css/resume.css"]
+           [href    "/css/main.css"]
            [media   "screen"]
            [title   "master"]
            [charset "utf-8"]))
