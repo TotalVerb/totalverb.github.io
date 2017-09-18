@@ -14,8 +14,7 @@
            [charset "utf-8"]))
     (script (include "ga.js" #:text)))
   (body
-    (header ([class  "container"]
-             [vocal  "http://schema.org/"]
+    (header ([vocal  "http://schema.org/"]
              [typeof "Person"])
       (h1 ([property "name"]) "Fengyang Wang")
       (address
@@ -27,7 +26,7 @@
               (a ([href "//wafy.me"]) "wafy.me"))
             (li ([data-property "github"])
               (a ([href "https://github.com/TotalVerb/"]) "TotalVerb")))))
-    (main ([class "container"])
+    (main
       (section
         (h1 "Summary of Qualifications")
         (ul (li "Software developer with C, C++, and Python experience")
