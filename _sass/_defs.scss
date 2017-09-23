@@ -1,3 +1,26 @@
+// The MIT License (MIT)
+//
+// Copyright (c) 2015-2017 Yegor Bugayenko
+// Copyright (c) 2017 Fengyang Wang
+//
+// Permission is hereby granted, free of charge, to any person obtaining a copy
+// of this software and associated documentation files (the "Software"), to deal
+// in the Software without restriction, including without limitation the rights
+// to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+// copies of the Software, and to permit persons to whom the Software is
+// furnished to do so, subject to the following conditions:
+//
+// The above copyright notice and this permission notice shall be included
+// in all copies or substantial portions of the Software.
+//
+// THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+// IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+// FITNESS FOR A PARTICULAR PURPOSE AND NON-INFRINGEMENT. IN NO EVENT SHALL THE
+// AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+// LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+// OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+// SOFTWARE.
+
 // Our variables
 $base-font-size:   18px;
 $small-font-size:  $base-font-size * .875;
@@ -5,8 +28,20 @@ $base-line-height: 1.58;
 
 $spacing-unit:     30px;
 
-$text-color:       rgb(0, 0, 0);
-$background-color: rgb(254, 251, 246);
+// colors
+$black:            rgba(0, 0, 0, .95);
+$white:            rgb(250, 250, 250);
+$gray:             rgb(150, 150, 150);
+$dark-gray:        rgb(100, 100, 100);
+$blue:             rgb(6, 69, 173);
+$red:              #db423c;
+$green:            #3fa75f;
+$yellow:           #ffc;
+
+// semantic colors
+$text-color:       $black;
+$background-color: rgb(250, 250, 250);
+$anchor-color:     darken($blue, 10%);
 $accent-color:     #820;
 $brand-color:      #2a7ae2;
 
@@ -14,16 +49,30 @@ $grey-color:       rgb(0, 0, 0);
 $grey-color-light: lighten($grey-color, 50%);
 $grey-color-dark:  darken($grey-color, 25%);
 
-$on-palm:          600px;
-$on-laptop:        800px;
-
-// Breaks
-$break-small:      600px;
 // Width of the content area
 $content-width:    750px;
+
+// Responsive width cutoffs
+$mobile-width:     767px;
+$laptop-width:     900px;
 
 // Fonts
 $base-font-family: Ubuntu, sans-serif;
 $code-font-family: 'Ubuntu Mono', monospace;
 @import url(https://fonts.googleapis.com/css?family=Ubuntu:400,400italic,700,700italic&subset=latin,latin-ext);
 @import url(https://fonts.googleapis.com/css?family=Ubuntu+Mono:400,400italic,700,700italic&subset=latin,latin-ext,greek);
+
+$navbar-height: 70px;
+$em: $base-font-size;
+
+$navbar-background: $black;
+$navbar-color: $white;
+
+%sans-serif {
+    font-family: $base-font-family;
+    font-size: $base-font-size;
+    font-stretch: normal;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 1.65 * $em;
+}

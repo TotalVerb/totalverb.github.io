@@ -7,7 +7,7 @@ a.site-title {
     color: $text-color;
 }
 
-.site-nav {
+nav {
     line-height: 56px;
 
     .menu-icon {
@@ -288,23 +288,13 @@ h1.page-heading {
     display: none;
 }
 
-img.profile {
-    margin: 0 0 1em 0;
-
-    @media screen and (min-width: $break-small) {
-        float: right;
-        max-width: 15em;
-        margin: 0 0 1em 1em;
-    }
-}
-
 main {
     padding-top: 1em;
     border-bottom-left-radius: $spacing-unit/2;
     border-bottom-right-radius: $spacing-unit/2;
+    max-width: $content-width;
 
-    @include media-query($on-laptop) {
-        max-width: $content-width;
+    @media screen and (max-width: $laptop-width) {
         padding-right: $spacing-unit / 2;
         padding-left: $spacing-unit / 2;
     }

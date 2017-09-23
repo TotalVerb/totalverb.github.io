@@ -83,6 +83,7 @@ section.work-experience {
     line-height: $base-line-height;
     margin-top: 1em;
     margin-bottom: 1em;
+    text-align: right;
 
     h1 {
         font-size: $base-font-size;
@@ -93,6 +94,11 @@ section.work-experience {
         margin-bottom: 0;
         vertical-align: top;
         line-height: $base-line-height;
+        float: left;
+        text-align: left;
+        @media screen and (max-width: $mobile-width) {
+            float: none;
+        }
     }
     address {
         // font-weight: bold;
@@ -107,24 +113,8 @@ section.work-experience {
         content: ' ⋅ ';
     }
 
-    @media not screen and (min-width: $break-small) {
-        text-align: center;
-    }
-    @media screen and (min-width: $break-small) {
-        text-align: right;
-
-        h1 {
-            line-height: $base-line-height;
-            float: left;
-            text-align: left;
-            // border-bottom: 1px solid black;
-        }
-
-        ul {
-            text-align: left;
-        }
-    }
     ul {
+        text-align: left;
         padding-left: 0;
         list-style-type: none;
         text-align: left;
