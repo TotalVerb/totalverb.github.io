@@ -100,7 +100,7 @@
           (time 2016)
           (ul (li "Part of " (q "Waterloo White"))
               (li "3-person team at East Central North America Regionals")
-              (li "Placed 3rd among 126 teams from 50 schools")))
+              (li "Placed 4th among 126 teams from 50 schools")))
         (section ([class "work-experience"])
           (h1 "Putnam Math Competition")
           (address (a ([href "http://math.scu.edu/putnam/"])

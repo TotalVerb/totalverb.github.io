@@ -7,6 +7,15 @@ permalink: /projects/
 Here are a few interesting open-source projects that I’ve worked on over the
 years. I also [teach] mathematics.
 
+## UW Student Seminars
+
+I help run the [UW Student Seminars][student-seminars]. Several of my past
+talks for the seminars are listed here.
+
+- [Hypercomplex numbers][hypercomplex]
+- [q-Analogs][q-analog]
+- [Constructive Analysis][constructive]
+
 ## EnglishText.jl
 
 Many applications display information to readers in prose format instead of
@@ -30,14 +39,6 @@ EnglishText.jl aims to
 This is a [library][cjl] for the [Julia][julia] programming language that
 supports currency arithmetic, computations, and formatting. In 2016, the
 project is now under the JuliaFinance organization umbrella.
-
-## UW Student Seminars
-
-I help run the [UW Student Seminars][student-seminars]. Several of my past
-talks for the seminars are listed here.
-
-- [Hypercomplex numbers][hypercomplex]
-- [q-Analogs][q-analog]
 
 ## High School Enrichment
 
@@ -80,6 +81,7 @@ and the overall experience was improved.
 [pymaze]: /pymaze-js
 [pymaze-img]: /images/pymaze.png
 [enrichment]: https://drive.google.com/drive/u/0/folders/0ByjX0nULhWbtUnpOeVJ0amNHbWM"
-[student-seminars]: http://uwseminars.com
-[hypercomplex]: http://uwseminars.com/archive/fw-Hypercomplex/
-[q-analog]: http://uwseminars.com/archive/fw-q/
+[student-seminars]: https://uwseminars.com
+[hypercomplex]: https://uwseminars.com/archive/fw-Hypercomplex/
+[q-analog]: https://uwseminars.com/archive/fw-q/
+[constructive]: https://uwseminars.com/archive/fw-constructive/
