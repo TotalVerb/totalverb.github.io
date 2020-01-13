@@ -59,7 +59,7 @@ say that both arrays and numbers are passed by sharing. Whereas arrays are
 mutable, numbers are not.
 
 In the first example, the syntax `A[0] = 0` is a mutation of the array. The
-array does not because a different object; it is the same object as before, but
+array does not become a different object; it is the same object as before, but
 its first element is changed. In the second example, the syntax `n = 0` is very
 different. It does not mean “change the value of this number to `0`”; instead,
 it means “rebind the name `n` to the new value `0`”. This subtlety is the source
