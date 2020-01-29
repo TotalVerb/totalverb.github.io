@@ -49,7 +49,7 @@ function mutateNumber(n) {
 n = 1;
 console.log(n);  // 1
 mutateNumber(n);
-console.log(n);  // 0
+console.log(n);  // 1
 {% endhighlight %}
 
 A common but incorrect explanation is that the semantics in JavaScript for
@@ -218,6 +218,9 @@ implementation for a language to have call-by-sharing semantics.
 I hope this blog post has cleared up some of the confusion regarding
 call-by-value and call-by-reference, and how call-by-sharing—a relatively
 unknown term—is indeed more precise and accurate for many languages.
+
+(Updated Jan 29, 2019: Fixed a typo in example, thanks to Nicolas Rouanne for pointing it
+out!)
 
 [evaluation strategies]: https://en.wikipedia.org/wiki/Evaluation_strategy
 [Ruby is not call-by-reference]: http://stackoverflow.com/questions/1872110/is-ruby-pass-by-reference-or-by-value
