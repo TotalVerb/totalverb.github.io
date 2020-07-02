@@ -5,6 +5,8 @@ date:   2020-06-09 15:00:00
 tags:   []
 ---
 
+**Update**: This matching has concluded now. Thank you to everyone who contributed!
+
 [Recent protests in Canada and the United
 States](https://en.wikipedia.org/wiki/George_Floyd_protests) have brought additional
 attention to the daily individual and systemic racism faced by many in our community. They
